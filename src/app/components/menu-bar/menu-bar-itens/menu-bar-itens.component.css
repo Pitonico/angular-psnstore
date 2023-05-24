@@ -1,0 +1,28 @@
+.menu-bar_itens > ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.menu-bar_itens > ul > li {
+  padding: 5px;
+}
+
+.menu-bar_itens > ul > li > a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.menu-bar_itens > ul > li > a > fa-icon {
+  margin-right: 5px;
+}
+
+.menu-bar_itens > ul > li > a:hover {
+  background-color: rgba(9,9,121,.8);
+  color: white;
+  border-radius: 10px;
+  font-weight: 800;
+}

@@ -8,6 +8,11 @@ import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CardPricingTitleComponent } from './components/card/card-pricing/card-pricing-title/card-pricing-title.component';
+import { CardPricingValueComponent } from './components/card/card-pricing/card-pricing-value/card-pricing-value.component';
+import { MenuBarLogoComponent } from './components/menu-bar/menu-bar-logo/menu-bar-logo.component';
+import { MenuBarItensComponent } from './components/menu-bar/menu-bar-itens/menu-bar-itens.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +21,16 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
     CardComponent,
     MenuBarComponent,
     CardLabelComponent,
-    CardPricingComponent
+    CardPricingComponent,
+    CardPricingTitleComponent,
+    CardPricingValueComponent,
+    MenuBarLogoComponent,
+    MenuBarItensComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

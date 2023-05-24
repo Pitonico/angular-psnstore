@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-pricing.component.css']
 })
 export class CardPricingComponent {
-  @Input() gameType: string = "Digital PS4";
-  @Input() gamePrice: string = "R$ 200,00";
+  @Input() gameTitle: string = "";
+  @Input() gameType: string = "";
+  @Input() gamePrice: string = "";
 }
